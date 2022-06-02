@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import{faCartShopping} from '@fortawesome/free-solid-svg-icons';
+import CartWidget from './CartWidget';
 
 function Navbar() {
     return (
@@ -31,7 +34,7 @@ function Navbar() {
                         </li>
                     </ul>
                     <div>
-                    <button className="btn btn-outline-success">Carrito</button>
+                    <button className="btn btn-outline-success"><CartWidget numero={4}/></button>
                     </div>
                     
                 </div>
